@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.1 (Python 3.10.0 on win32)" generated="20211018 16:17:54.291" rpa="false" schemaversion="2">
+<suite id="s1" name="List" source="C:\development\robot-scripts\amazon\tests\list.robot">
+<test id="s1-t1" name="Variable demonstration">
+<kw name="Log" library="BuiltIn">
+<arg>${USENAME_PASSWORD_LOGGINED}[0]</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20211018 16:17:54.308" level="INFO">R</msg>
+<status status="PASS" starttime="20211018 16:17:54.308" endtime="20211018 16:17:54.308"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>${USENAME_PASSWORD_LOGGINED}[1]</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20211018 16:17:54.309" level="INFO">o</msg>
+<status status="PASS" starttime="20211018 16:17:54.309" endtime="20211018 16:17:54.309"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>${USENAME_PASSWORD_LOGGINED}[2]</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20211018 16:17:54.309" level="INFO">m</msg>
+<status status="PASS" starttime="20211018 16:17:54.309" endtime="20211018 16:17:54.309"/>
+</kw>
+<status status="PASS" starttime="20211018 16:17:54.308" endtime="20211018 16:17:54.309"/>
+</test>
+<status status="PASS" starttime="20211018 16:17:54.292" endtime="20211018 16:17:54.310"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="List">List</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
